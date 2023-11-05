@@ -10,7 +10,7 @@ arch=('x86_64')
 url="http://cajviewer.cnki.net/"
 license=('custom')
 depends=('qt5-base')
-source=("https://download.cnki.net/cajviewer_1.0.3.0_amd64.deb"
+source=("https://cajviewer.oversea.cnki.net/down/cajviewer_${pkgver}_amd64.deb"
         "${pkgname}.sh"
         "${pkgname}.desktop")
 # strip will cause cajviewer core dumped 
